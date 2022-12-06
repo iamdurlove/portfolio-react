@@ -1,7 +1,7 @@
 import React from "react";
 
 //function for form reset
-function handleSubmit(e){
+function handleSubmit(e) {
   setTimeout(() => {
     e.target.reset();
   }, 3000);
@@ -20,13 +20,13 @@ const Contact = () => {
           </p>
           <p className="py-6">Submit the form below to get in touch with me</p>
         </div>
-        
+
         <div className=" flex justify-center items-center">
           <form
             onSubmit={handleSubmit}
             name="contact"
             method="POST"
-            action="https://getform.io/f/a5bbeab4-3505-457e-bcda-603c8bc15711"
+            action="https://getform.io/f/b22a6672-d45c-4dda-8b96-eafd400b799e"
             className=" flex flex-col w-full md:w-1/2"
           >
             <input
